@@ -100,7 +100,7 @@ fn execute_tcpping() {
         .expect("Error setting Ctrl-C Handler");
 
     let mut avg: u128 = 0;
-    let mut min: u128 = u128::MAX;
+    let mut min: u128 = 0;
     let mut max: u128 = 0;
     let mut lost: u128 = 0;
 
